@@ -1,0 +1,10 @@
+tuple1 = (1,2,3,3)
+print(len(tuple1))
+print(tuple1[0])
+print(tuple1[:2])
+print(tuple1.count(3))
+tuple2 = tuple1 + ("second", 2)
+print(tuple2)
+print(tuple2[4])
+tuple3 = (True, False) - (True, False)            # & | ^ - operators will not work, + will work
+print(tuple3)
